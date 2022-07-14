@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter&family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&family=Roboto+Condensed&display=swap");
+:root {
+  --blue: #183764;
+  --blue2: #1b3764;
+  --yellow: #ffca42;
+  --grey: #969aa0;
+  --white: #fff;
+  --l_blue: #b4c7e7;
+  --l_grey: #f4f8ff;
+  --back_col: #f5f8fc;
+}
+body {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.4;
+  color: var(--grey);
+  min-height: 130vh;
+  background: var(--back_col);
+  /* overflow: hidden; */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.author_info {
+  position: absolute;
+  top: 196px;
+  left: 765px;
+}
+.author_info h2 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  margin: 0;
+  text-transform: capitalize;
+  color: var(--blue2);
+}
+.author_info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 34px;
+  color: var(--grey);
+  max-width: 559px;
+  margin-top: 33px;
+}
+.author_stats {
+  margin-top: 33px;
+  padding-left: 12px;
+  max-width: 571px;
+}
+.author_stats_1,
+.author_stats_2,
+.author_stats_3 {
+  display: inline-block;
+}
+.author_stats_2 {
+  margin-left: 68px;
+}
+.author_stats_3 {
+  margin-left: 93px;
+}
+.author_stats_1 p,
+.author_stats_2 p,
+.author_stats_3 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: var(--grey);
+  margin-top: 1px;
+}
+.author_stats_1 h3,
+.author_stats_2 h3,
+.author_stats_3 h3 {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 77px;
+  margin: 0;
+  color: #1b3764;
+}
+.square {
+  background: var(--yellow);
+  width: 50px;
+  height: 3px;
+
+  margin-top: 23px;
+}
+.rectangle_1,
+.rectangle_2 {
+  width: 1px;
+  height: 98px;
+  background-color: var(--yellow);
+}
+.rectangle_1 {
+  position: absolute;
+  left: 946px;
+  top: 476.91px;
+}
+.rectangle_2 {
+  position: absolute;
+  left: 1153px;
+  top: 476.91px;
+}
+.author_card {
+  background: var(--blue2);
+  margin-top: 54px;
+  max-width: 484px;
+  max-height: 161px;
+  padding: 15px 20px 15px 20px;
+  position: relative;
+}
+
+.author_card_text {
+  position: absolute;
+  top: 37px;
+  left: 190px;
+}
+.author_card_text h4 {
+  height: 27px;
+  margin: 0 0 6px 0;
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: var(--yellow);
+}
+.author_card_text p {
+  margin: 4px 0 0 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: var(--l_blue);
+}
+.img_back {
+  border: solid 10px var(--yellow);
+  width: 546px;
+  height: 640px;
+  position: absolute;
+  top: 180px;
+  left: 70px;
+}
+.oldman_img {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  width: 525px;
+  height: 620px;
+}
